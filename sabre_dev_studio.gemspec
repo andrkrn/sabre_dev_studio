@@ -23,5 +23,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake', '~> 10.1.0'
   gem.add_runtime_dependency 'multi_json', '~> 1.10.1'
   gem.add_runtime_dependency 'httparty', '~> 0.13.1'
-  gem.add_runtime_dependency 'hashie', '~> 3.2.0'
+  gem.add_runtime_dependency 'hashie', '>= 3.2.0', '< 4'
 end
